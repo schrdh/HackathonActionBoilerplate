@@ -29,7 +29,7 @@ Run the following commands
 
        ssh -R 80:localhost:8080 serveo.net
 
-1. In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Fulfullment** > ** Webhook ** set URL according to your tunnel endpoint
+1. In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Fulfillment** > **Webhook** set URL according to your tunnel endpoint
 https://myservice.serveo.net
 
 #### Testing this Sample
