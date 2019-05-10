@@ -39,9 +39,9 @@ https://myservice.serveo.net
 ### References
 + Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
 + Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant)
-+ [Examples from Google] (https://developers.google.com/actions/samples/github) using Node.js or Java backend
++ [Examples from Google](https://developers.google.com/actions/samples/github) using Node.js or Java backend
 + More info about deploying [Java apps with App Engine](https://cloud.google.com/appengine/docs/standard/java/quickstart).
-+ More info about creating clean [AppEngine maven projects] (https://cloud.google.com/appengine/docs/standard/java/tools/maven)
++ More info about creating clean [AppEngine maven projects](https://cloud.google.com/appengine/docs/standard/java/tools/maven)
 + Information about [Dialogflow SDK](https://dialogflow.com/docs/sdks)
 
 ### License
