@@ -1,7 +1,7 @@
 # Actions on Google: Java Client Library Boilerplate with AppEngine Framework
 
 Boilerplate to help you get started quickly with the Java client library for Actions on Google.
-The Original from https://github.com/actions-on-google/dialogflow-webhook-boilerplate-java was amended with AppEngine Framework
+The original source from https://github.com/actions-on-google/dialogflow-webhook-boilerplate-java was amended with AppEngine Framework
 
 ### Setup Instructions
 
@@ -14,19 +14,22 @@ The Original from https://github.com/actions-on-google/dialogflow-webhook-boiler
 
 #### Requirments
 1. Working Java (>=8) Development Environment
-1. Maven
+1. [Maven](https://maven.apache.org/download.cgi)
 1. Download & install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/)
 
-#### Compiling and starting
+#### Compiling and starting the development server
 Run the following commands
-    $ mvn clean package
-    $ mvn appengine:devserver
+
+    mvn clean package
+    
+    mvn appengine:devserver
 
 #### Tunneling Fulfillment to your local development server
-1. Start forwarding the HTTP traffic with a service like [Serveo] (https://serveo.net) to your local development server
-    $ ssh -R 80:localhost:8080 serveo.net
+1. Start forwarding the HTTP traffic with a service like [Serveo](https://serveo.net) to your local development server
 
-1. In the [Dialogflow console](https://console.dialogflow.com), set Fulfillment URL according to your tunnel URL
+       ssh -R 80:localhost:8080 serveo.net
+
+1. In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Fulfullment** > ** Webhook ** set URL according to your tunnel endpoint
 https://myservice.serveo.net
 
 #### Testing this Sample
