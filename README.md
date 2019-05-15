@@ -6,6 +6,7 @@ The original source from https://github.com/actions-on-google/dialogflow-webhook
 ### Setup Instructions
 
 #### Action Configuration
+1. Create a new Google account or use your existing one.
 1. From the [Actions on Google Console](https://console.actions.google.com/), add a new project (this will become your *Project ID*) > **Create Project**.
 1. Scroll down to the **More Options** section, and click on the **Conversational** card.
 1. From the left navigation menu under **Build** > **Actions** > **Add Your First Action** > **BUILD** (this will bring you to the Dialogflow console) > Select language and time zone > **CREATE**.
@@ -33,8 +34,11 @@ Run the following commands
 https://myservice.serveo.net
 
 #### Testing this Sample
-+ In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Integrations** > **Integration Settings** under Google Assistant > Enable **Auto-preview changes** >  **Test** to open the Actions on Google simulator. **OR**
++ Enable Permissions in your Google Account (Activity controls):  Web & App Activity, Device Information and Voice & Audio Activity
++ In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Integrations** > **Integration Settings** under Google Assistant > Enable **Auto-preview changes** >  **Test** to open the Actions on Google simulator.
 + Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to Google Assistant on a mobile device associated with your Action's account.
+
+
 
 ### References
 + Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
