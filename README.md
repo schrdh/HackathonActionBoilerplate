@@ -30,9 +30,13 @@ Run the following commands
     mvn appengine:devserver
 
 #### Tunneling Fulfillment to your local development server
-1. Start forwarding the HTTP traffic with a service like [Serveo](https://serveo.net) to your local development server
+1. Start forwarding the HTTP traffic with a service like [Serveo](https://serveo.net) to your local development server **OR*
 
-       ssh -R 80:localhost:8080 serveo.net
+       ssh -R myservice:80:localhost:8080 serveo.net
+
+1. using autossh
+       
+       autossh -M 0 -o ServerAliveInterval=60 -R myservice:80:localhost:3000 serveo.net
 
 1. In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Fulfillment** > **Webhook** set URL according to your tunnel endpoint
 https://myservice.serveo.net
