@@ -5,6 +5,10 @@ The original source from https://github.com/actions-on-google/dialogflow-webhook
 
 ### Setup Instructions
 
+#### Google Development Console
++ [Actions console](https://console.actions.google.com/)
++ [Dialogflow console](https://console.dialogflow.com)
+
 #### Action Configuration
 1. Create a new Google account or use your existing one.
 1. From the [Actions on Google Console](https://console.actions.google.com/), add a new project (this will become your *Project ID*) > **Create Project**.
@@ -38,8 +42,6 @@ https://myservice.serveo.net
 + In the [Dialogflow console](https://console.dialogflow.com), from the left navigation menu > **Integrations** > **Integration Settings** under Google Assistant > Enable **Auto-preview changes** >  **Test** to open the Actions on Google simulator.
 + Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to Google Assistant on a mobile device associated with your Action's account.
 
-
-
 ### References
 + Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
 + Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant)
@@ -47,6 +49,8 @@ https://myservice.serveo.net
 + More info about deploying [Java apps with App Engine](https://cloud.google.com/appengine/docs/standard/java/quickstart).
 + More info about creating clean [AppEngine maven projects](https://cloud.google.com/appengine/docs/standard/java/tools/maven)
 + Information about [Dialogflow SDK](https://dialogflow.com/docs/sdks)
++ [Google Code Labs Tutorial](https://codelabs.developers.google.com/codelabs/actions-1/index.html#0)
++ [Howto setup a Project from Scratch](https://developers.google.com/actions/dialogflow/project-agent)
 
 ### License
 See [LICENSE](LICENSE).
